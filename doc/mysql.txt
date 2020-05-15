@@ -1,2 +1,3 @@
-root 123456
-cdm_dev 123
+mysql配置:
+    root 123456
+    cdm_dev 123
