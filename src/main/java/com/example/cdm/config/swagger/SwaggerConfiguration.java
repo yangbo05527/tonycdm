@@ -1,4 +1,4 @@
-package com.example.cdm.config;
+package com.example.cdm.config.swagger;
 
 import io.swagger.annotations.Api;
 import org.springframework.context.annotation.Bean;

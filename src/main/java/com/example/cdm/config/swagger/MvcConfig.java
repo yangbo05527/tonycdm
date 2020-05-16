@@ -1,4 +1,4 @@
-package com.example.cdm.config;
+package com.example.cdm.config.swagger;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

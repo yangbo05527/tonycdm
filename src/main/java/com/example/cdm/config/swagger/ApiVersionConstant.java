@@ -1,4 +1,4 @@
-package com.example.cdm.config;
+package com.example.cdm.config.swagger;
 
 
 /**

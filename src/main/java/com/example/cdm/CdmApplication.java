@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
-@ComponentScan(basePackages={"com.example.cdm.*"})
+@ComponentScan(basePackages={"com.example.cdm.*","com.example.cdm.config.idwork"})
 @MapperScan(basePackages = "com.example.cdm.dao")
 @EnableWebMvc
 public class CdmApplication {

@@ -1,4 +1,4 @@
-package com.example.cdm.config;
+package com.example.cdm.config.swagger;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
