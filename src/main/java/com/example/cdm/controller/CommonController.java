@@ -40,8 +40,10 @@ public class CommonController {
     }
 
     @GetMapping("idworker")
+    @ApiOperation(value="Idworker生成器", notes="Idworker生成器")
     @ApiVersion(group = ApiVersionConstant.VERSION_1_01)
     public void idworker(){
+        System.out.println("热部署测试again。。。。");
         System.out.println( "idWorker:" + sid.nextLong() );
     }
 

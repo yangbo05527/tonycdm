@@ -94,11 +94,19 @@
 			<version>1.1.9</version>
 		</dependency>
 
+		<!-- swagger 文档 -->
 		<dependency>
 			<groupId>com.github.xiaoymin</groupId>
 			<artifactId>knife4j-spring-boot-starter</artifactId>
 			<version>2.0.2</version>
 			<!--在引用时请在maven中央仓库搜索最新版本号-->
+		</dependency>
+
+		<!-- 热部署配置一 开发阶段使用：springboot热启动(热部署)：项目有更改，自动编译：需配置idea   true生效-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
 		</dependency>
 
 
@@ -131,6 +139,16 @@
 					<verbose>true</verbose>
 				</configuration>
 			</plugin>
+
+			<!-- 热部署配置二-->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<fork>true</fork>
+				</configuration>
+			</plugin>
+
 
 		</plugins>
 

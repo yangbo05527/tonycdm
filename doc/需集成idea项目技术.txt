@@ -1,0 +1,15 @@
+spring boot + mybatis + mysql 基础
+lombok    			有
+generator			有
+swagger			    有【导出拓展】
+idWork              有
+热部署
+Redis及Redis锁
+定时任务
+pageHelper
+ocr识别
+sonar【待定】
+logAop
+
+
+
